@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="./signup.css">
+</head>
+<body>
+    <div class="signup-container">
+        <img src="https://img.freepik.com/free-photo/top-view-table-full-food_23-2149209251.jpg?t=st=1719937279~exp=1719940879~hmac=a4e2e63f90f5371495b1c46fdd9ee3c7dc03242ee19a40afe91b4fbe6aabdf12&w=1060" alt="">
+        <div class="signup-box">
+            <h2>Sign up</h2>
+            <form id="signup-form">
+                <div class="form-group">
+                    <label for="name" style="color: white;">Full Name</label>
+                    <input type="text" id="name" name="name" placeholder="Please enter a valid name" required>
+                    <span class="error-message">Please enter a valid name</span>
+                </div>
+                <div class="form-group">
+                    <label for="email" style="color: white;">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Invalid Email id" required>
+                    <span class="error-message">Invalid Email id</span>
+                </div>
+                <div class="form-group">
+                    <input type="checkbox" id="terms" name="terms" required>
+                    <label for="terms" style="color: white;">I agree to Zomato's <a href="#" >Terms of Service, Privacy Policy</a> and <a href="#">Content Policies</a></label>
+                </div>
+                <button type="submit" class="submit-btn">Create account</button>
+            </form>
+            <div class="or" style="color: black;">or</div>
+            <button class="google-btn">Sign in with Google</button>
+            <p class="login-link" style="color: white;">Already have an account? <a href="#">Log in</a></p>
+        </div>
+    </div>
+</body>
+</html>
